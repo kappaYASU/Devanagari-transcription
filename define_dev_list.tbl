@@ -1,0 +1,118 @@
+%In this table is constructed in the following manner.
+%The letters before '!' are only a comment. This program does not read.
+%The numerals after '!' indicate the property of each Devanagari-letter.
+%Especially consonant 1, vowel 3(independent form), vowel 4(dependent form, space 5, and so on. Other numerals do not have important meaning, but 1,3,4,5 must not be used in other meaning.)
+%< Devanagari letter ? romanized letter > internal sign (Ascii letter)
+%'internal sign is not used in this program. you can use every ascii letter.
+ऽ avagraha!0<ऽ?’>'
+ऽ avagraha!0<ऽ?'>'
+long dash -!8<–?–>-
+अ short A-vowel!2<अ?a>a
+आ long-A-vowel!3<आ?ā>A
+इ short I-vowel!3<इ?i>i
+ई long-I-vowel!3<ई?ī>I
+उ short U-vowel!3<उ?u>u
+ऊ long-U-vowel!3<ऊ?ū>U
+ऋ vocalic R!3<ऋ?ṛ>f
+ॠ vocalic-long-R!3<ॠ?ṝ>F
+ऌ vocalic L!3<ऌ?ḷ>L
+ॡ vocalic long L!3<ॡ?ḹ>$
+ए diphthong E!3<ए?e>e
+ऐ diphthong AI!3<ऐ?ai>E
+ओ diphthong O!3<ओ?o>o
+औ diphthong AU!3<औ?au>O
+anusvara!2<ं?ṃ>M
+visarga!2<ः?ḥ>H
+anunaasika!2<ँ?ँ>^
+long-vowel-A!4<ा?ā>A
+vowel-I!4<ि?i>i
+long-vowel-I!4<ी?ī>I
+vowel-U!4<ु?u>u
+long-vowel-U!4<ू?ū>U
+vocalic-R!4<ृ?ṛ>f
+long-vocalic-R!4<ॄ?ṝ>F
+vocalic-L!4<ॢ?ḷ>L
+long-vocalic-L!4<ॣ?ḹ>$
+diphthong-E!4<े?e>e
+diphthong-AI!4<ै?ai>E
+diphthong-O!4<ो?o>o
+diphthong-AU!4<ौ?au>O
+ॐaum!0<ॐ?ॐ>&
+numeral!0<०?0>0
+numeral!0<१?1>1
+numeral!0<२?2>2
+numeral!0<३?3>3
+numeral!0<४?4>4
+numeral!0<५?5>5
+numeral!0<६?6>6
+numeral!0<७?7>7
+numeral!0<८?8>8
+numeral!0<९?9>9
+danda!9<।?.>.
+danda!9<।?|>.
+danda!9<।?/>.
+danda!9<।?:>.
+comma!8<,?,>,
+space!5< ? > 
+backslash!7<\?\>\
+brachet1!7<(?(>(
+brachet2!7<{?{>{
+brachet3!7<[?[>[
+brachet1!6<)?)>)
+brachet2!6<}?}>}
+brachet3!6<]?]>]
+double-danda!9<॥?||>:
+double-danda!9<॥?//>:
+virama!4्?<x>^
+क consonant-K!1<क?k>k
+खconsonant-KH!1<ख?kh>K
+ग consonant-G!1<ग?g>g
+घ consonant-GH!1<घ?gh>G
+ङ nasal consonant-NG!1<ङ?ṅ>X
+च consonant-C!1<च?c>c
+छ consonant-CH!1<छ?ch>C
+ज consonant-J!1<ज?j>j
+झ consonant-JH!1<झ?jh>J
+ञ consonant-NY!1<ञ?ñ>Z
+ट retroflex-T!1<ट?ṭ>q
+ठ retroflex-TH!1<ठ?ṭh>Q
+ड retroflex-D!1<ड?ḍ>w
+ढ retroflex-DH!1<ढ?ḍh>W
+ण retroflex-N!1<ण?ṇ>N
+त consonant-T!1<त?t>t
+थ consonant-TH!1<थ?th>T
+द consonant-D!1<द?d>d
+ध consonant-DH!1<ध?dh>D
+न consonant-N!1<न?n>n
+प consonant-P!1<प?p>p
+फ consonant-PH!1<फ?ph>P
+ब consonant-B!1<ब?b>b
+भ consonant-BH!1<भ?bh>B
+म consonant-M!1<म?m>m
+य semivowel-Y!1<य?y>y
+र semivowel-R!1<र?r>r
+ल semivowel-L!1<ल?l>l
+व semivowel-V!1<व?v>v
+श fricative-SH!1<श?ś>z
+ष retroflex fricative S!1<ष?ṣ>x
+स fricative-S!1<स?s>s
+ह fricative-H!1<ह?h>h
+%%%
+%letter:	Unicode	encoding by UTF 8:	the number of bytes
+%ā			U+0101	C4 81				2
+%ī			U+012B	C4 AB				2
+%ū			U+016B	C5 AB				2
+%ṛ			U+1E5B	E1 B9 9B			3
+%ṝ			U+1E5D	E1 B9 9D			3
+%ḷ			U+1E37	E1 B8 B7			3
+%ḹ			U+1E39	E1 B8 B9			3
+%ṃ			U+1E43	E1 B9 83			3
+%ḥ			U+1E25	E1 B8 A5			3
+%ṅ			U+1E45	E1 B9 85			3
+%ñ			U+00F1	C3 B1				2
+%ṭ			U+1E6D	E1 B9 AD			3
+%ḍ			U+1E0D	E1 B8 8D			3
+%ṇ			U+1E47	E1 B9 87			3
+%ś			U+015B	C5 9B				2
+%ṣ			U+1E63	E1 B9 A3			3
+%These code points are included in Unicode of Latin Extended-A and Latin Extended Additional.(unicode.org)
